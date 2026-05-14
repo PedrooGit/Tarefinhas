@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background: rgb(255, 132, 132);
+}
+
+#fundo{
+    position: relative;
+    border-radius: 55px;
+    background: rgb(254, 55, 55);
+    margin-top: 80px;
+    margin-left: 38%;
+    margin-right: 38%;
+    height: 500px;
+    box-shadow:5px 6px 40px 4px;
+}
+
+h1{
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid black;
+}
+
+.no{
+    margin-top: 34px;
+
+    font-size: x-large;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+label.no{
+    position: absolute;
+    left: 35px;
+
+
+}
+
+input.no{
+    position: absolute;
+    left: 120px;
+    width: 190px;
+
+    border: none; 
+    outline: none;
+    border-radius: 10px;
+    border-bottom: 3px solid #ccc; 
+    transition: border-color 0.3s ease; 
+
+    font-size: x-large;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+input.no:focus{
+    border-bottom: 3px solid #00a6ff; 
+}
+
+
+
+
+
+
+
+.al{
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+}
+
+.pe{
+    position: absolute;
+    right: 1px;
+    bottom: 1px;   
+}
+
+#validar{
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+}
+
+
+
+
+
+
