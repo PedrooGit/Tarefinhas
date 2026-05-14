@@ -146,16 +146,6 @@ input.pe:focus{
     border-bottom: 3px solid #00a6ff; 
 }
 
-
-
-
-
-
-
-
-
-
-
 #validar{
 
     position: absolute;
@@ -196,4 +186,23 @@ input.pe:focus{
 
 }
 
+#voltar{
+    position: absolute;
+    bottom: 28px;
+    right: 22px;
+    height: 50px;
+    width: 130px;
+    text-decoration: none;
+    color: azure;
+    background: rgb(9, 0, 19);
+    border-radius: 7px;
+}
 
+#voltar:hover{
+    border-bottom: 4px solid rgba(220, 179, 245, 0.619);
+}
+
+#voltar h5{
+    text-align: center;
+    padding-top: 15px;
+}
