@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
-
 *{
 
     margin: 0;
@@ -62,9 +61,88 @@ input.no{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    text-align: center;
 }
 
 input.no:focus{
+    border-bottom: 3px solid #00a6ff; 
+}
+
+.al{
+    margin-top: 84px;
+    font-size: x-large;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+label.al{
+    position: absolute;
+    left: 35px;
+
+
+}
+
+input.al{
+    position: absolute;
+    left: 120px;
+    width: 190px;
+
+    border: none; 
+    outline: none;
+    border-radius: 10px;
+    border-bottom: 3px solid #ccc; 
+    transition: border-color 0.3s ease; 
+
+    font-size: x-large;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;    
+}
+
+input.al:focus{
+    border-bottom: 3px solid #00a6ff; 
+}
+
+.pe{
+    margin-top: 134px;
+    font-size: x-large;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+label.pe{
+    position: absolute;
+    left: 35px;
+
+
+}
+
+input.pe{
+    position: absolute;
+    left: 120px;
+    width: 190px;
+
+    border: none; 
+    outline: none;
+    border-radius: 10px;
+    border-bottom: 3px solid #ccc; 
+    transition: border-color 0.3s ease; 
+
+    font-size: x-large;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+input.pe:focus{
     border-bottom: 3px solid #00a6ff; 
 }
 
@@ -74,26 +152,48 @@ input.no:focus{
 
 
 
-.al{
-    position: absolute;
-    right: 1px;
-    bottom: 1px;
-}
 
-.pe{
-    position: absolute;
-    right: 1px;
-    bottom: 1px;   
-}
+
+
 
 #validar{
+
     position: absolute;
-    right: 1px;
-    bottom: 1px;
+    left: 35px;
+    top: 270px;
+    height: 50px;
+    width: 275px;
+
+    background: black;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 11px;
+
+    font-size: large;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    border: 2.5px solid rgba(213, 0, 0, 0.477)    
 }
 
+#validar:hover{
+    border: 2.5px solid white   
+}
 
+#resultado{
 
+    position: absolute;
+    left: 37px;
+    top: 330px;
+    width: 262px;
+    height: 120px;
+    background: black;
+    border-radius: 11px;
+    border: 6px solid rgba(213, 0, 0, 0.477)
 
+}
 
 
