@@ -174,16 +174,18 @@ input.pe:focus{
 }
 
 #resultado{
-
     position: absolute;
     left: 37px;
     top: 330px;
-    width: 262px;
+    width: 243px;
     height: 120px;
     background: black;
     border-radius: 11px;
-    border: 6px solid rgba(213, 0, 0, 0.477)
-
+    border: 6px solid rgba(213, 0, 0, 0.477);
+    
+    padding: 10px;
+    color: #ffffff;
+    font-size: x-large;
 }
 
 #voltar{
@@ -205,12 +207,4 @@ input.pe:focus{
 #voltar h5{
     text-align: center;
     padding-top: 15px;
-}
-
-#resultado h5{
-
-    margin: 10px;
-    color: #ffffff;
-    font-size: large;
-
 }
