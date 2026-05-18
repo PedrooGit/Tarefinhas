@@ -166,7 +166,7 @@ input.pe:focus{
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    border: 2.5px solid rgba(213, 0, 0, 0.477)    
+    border: 3px solid rgba(213, 0, 0, 0.477)    
 }
 
 #validar:hover{
@@ -205,4 +205,12 @@ input.pe:focus{
 #voltar h5{
     text-align: center;
     padding-top: 15px;
+}
+
+#resultado h5{
+
+    margin: 10px;
+    color: #ffffff;
+    font-size: large;
+
 }
