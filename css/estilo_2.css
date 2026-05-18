@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#voltar{
+    position: absolute;
+    bottom: 28px;
+    right: 22px;
+    height: 50px;
+    width: 130px;
+    text-decoration: none;
+    color: azure;
+    background: rgb(9, 0, 19);
+    border-radius: 7px;
+}
+
+#voltar:hover{
+    border-bottom: 4px solid rgba(220, 179, 245, 0.619);
+}
+
+#voltar h5{
+    text-align: center;
+    padding-top: 15px;
+}
