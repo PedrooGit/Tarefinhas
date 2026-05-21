@@ -7,21 +7,17 @@
         <title>SEMÁFORO</title>
     </head>
     <body>
-            
-        <main>
-            <div>
-                <img src="../img/desligado.png" id='img' >
-            </div>
+        
+        <div>
+            <img src="../img/desligado.png" id='img'>
+        </div>
 
-            <div id='buttons'>
-                <button id='vermelho' class="button" >VERMELHO</button>
-                <button id='amarelo' class="button" >AMARELO</button>
-                <button id='verde' class="button" >VERDE</button>
-                <button name='teste' id='automatico' class="button" >AUTOMATICO</button>
-            </div>
-        </main> 
-
-
+        <div id='buttons'>
+            <button onclick="vermelho() ; pararAuto()" id='vermelho' class="button" >VERMELHO</button>
+            <button onclick="amarelo() ; pararAuto()" id='amarelo' class="button" >AMARELO</button>
+            <button onclick="verde() ; pararAuto()" id='verde' class="button" >VERDE</button>
+            <button onclick="auto()" id='automatico' class="button" >AUTOMATICO</button>
+        </div>
 
         <a id="voltar" href="../main.html"><h5>VOLTAR</h5></a>
         <script src="../js/index_2.js"></script>
