@@ -12,6 +12,7 @@ main {
     justify-content: center;
     gap: 4.5vh;
 }
+
 .button {
     width: 100px;
     height: 24px;
